@@ -1,0 +1,178 @@
+BEGIN:VCALENDAR
+PRODID:-//Google Inc//Google Calendar 70.9054//EN
+VERSION:2.0
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:anameofauser@gmail.com
+X-WR-TIMEZONE:America/Toronto
+BEGIN:VEVENT
+DTSTART:20180607T220100Z
+DTEND:20180607T230100Z
+DTSTAMP:20190120T073936Z
+UID:6cp64dpj6ksmcbb170s6cb9k6hgj8b9p71i38b9h6pi68opo68r66db66s@google.com
+CREATED:20180607T053212Z
+LAST-MODIFIED:20180607T053212Z
+SEQUENCE:1
+STATUS:TENTATIVE
+SUMMARY:Check bloody courselonk
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:This is an event reminder
+TRIGGER:-P0DT0H10M0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+D
+ TSTART:20190108T999999Z
+DTEND;VALUE=DATE:20190116
+RRULE:FREQ=DAILY
+DTSTAMP:20190120T073936Z
+UID:4vart7j8jhnm2q5s
+ iegl8at71d@google.com
+CREATED:20190120T073648Z
+LAST-MODIFIED:20190120T073648Z
+SEQUENCE:0
+STATUS:CONFIRMED
+S
+ UMMARY:F
+ uck
+TRANSP:TRANSPARENT
+END:
+ VEVENT
+BEGIN:VEVENT
+DTSTART:20190120T080000Z
+DTE
+ ND:20190120T090000Z
+DTSTAMP:20190120T073936Z
+UID:3st6f4746ko
+ tma0avrf5viot69@google.com
+CREATED:20190120T073707Z
+LAST-MODIFIED:20190120T073707Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:ssssssssss
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20190121T083000Z
+DTEND:20190121T093000Z
+DTSTAMP:20190120T073936Z
+UID:7vimfsah551d5mc888p30dqfl1@google.com
+CREATED:20190120T073709Z
+LAST-MODIFIED:20190120T073709Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:sss
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20190123T153000Z
+DTEND:20190123T163000Z
+DTSTAMP:20190120T073936Z
+UID:5m95ith1a1sckk29nefdtkgi5c@google.com
+CREATED:20190120T073711Z
+LAST-MODIFIED:20190120T073711Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:sssssss
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20190120T203000Z
+DTE
+ ND:20190120T213000Z
+DTSTAMP:20190120T073936Z
+UID:4n6k9s6ea2nn5npdrsf2n7k9hi@google.com
+CREATED:20190120T073713Z
+LAST-MODIFIED:20190120T073713Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:sssss
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20190127T073000Z
+DTEND:20190127T083000Z
+DTSTAMP:20190120T073936Z
+UID:45k28rcs8hhhpu19vifso4srqm@google.com
+CREATED:20190120T073829Z
+;
+;
+;
+;
+;A good example of lines being split
+;
+;
+;
+;
+DE
+ SCRIPTION:What the fuck did you just fucking say about me\, you little bi
+ tch? I'll have you know I graduated top of my class in the Navy Seals\, and
+  I've been involved in numerous secret raids on Al-Quaeda\, and I have over
+  300 confirmed kills. I am trained in gorilla warfare and I'm the top snipe
+ r in the entire US armed forces. You are nothing to me but just another tar
+ get. I will wipe you the fuck out with precision the likes of which has nev
+ er been seen before on this Earth\, mark my fucking words. You think you ca
+ n get away with saying that shit to me over the Internet? Think again\, fuc
+ ker. As we speak I am contacting my secret network of spies across the USA 
+ and your IP is being traced right now so you better prepare for the storm\,
+  maggot. The storm that wipes out the pathetic little thing you call your l
+ ife. You're fucking dead\, kid. I can be anywhere\, anytime\, and I can kil
+ l you in over seven hundred ways\, and that's just with my bare hands. Not 
+ only am I extensively trained in unarmed combat\, but I have access to the 
+ entire arsenal of the United States Marine Corps and I will use it to its f
+ ull extent to wipe your miserable ass off the face of the continent\, you l
+ ittle shit. If only you could have known what unholy retribution your littl
+ e "clever" comment was about to bring down upon you\, maybe you would have 
+ held your fucking tongue. But you couldn't\, you didn't\, and now you're pa
+ ying the price\, you goddamn idiot. I will shit fury all over you and you w
+ ill drown in it. You're fucking dead\, kiddo.
+LAST-MODIFIED:20190120T073830Z
+LOC
+ ATION:Fuck You
+SEQUENCE:0
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20190128T080000Z
+DTEND:20190128T090000Z
+DTSTAMP:20190120T073936Z
+UID:4psbf27dq8kpqle1po5i35i8hd@google.com
+CREATED:20190120T073836
+LAST-MODIFIED:20190120T073836Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:BALLS
+;BEGIN:VEVENT
+;END:VCALENDAR
+;These are comments to fuck up your program
+;That last comment may or may not be legal
+TRAN
+ SP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20190130T140000Z
+DTEND:20190130T150000Z
+DTSTAMP:20190120T073936Z
+UID:0b1h4j0vg6maf69ik
+ ft2hf0tuk@google.com
+CREATED:20190
+ 120T073849Z
+LAST-MODIFIED:20190120T073849Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Wll
+TRANSP:OPAQUE
+END:VALARM
+END:VCALENDAR
+;Because fuck your parser
+;
+;
+;
+;
+;
+;
+;
+;

@@ -1,0 +1,51 @@
+B
+ E
+ G
+ I
+ N
+ :
+ V
+ C
+ A
+ L
+ E
+ N
+ D
+ A
+ R
+P
+ R
+ O
+ D
+ I
+ D
+ :
+ -
+ //hacksw/handcal//NONSGML v1.0//EN
+V
+ E
+ R
+ S
+ I
+ O
+ N
+ :
+ 3
+;Hi!
+;this is a comment
+BEGIN:VEVENT
+UID:another one
+TEST: abcdef
+TEST: helloworld
+REALLY: long
+motherfncli: fwefew
+wefewf:wefewfewfwef
+this is a test
+ : folding.
+other;param=x:19970714T1700
+ 0
+ 0Z
+DTSTART:20190108T120000
+DTSTAMP:19970714T170000Z
+END:VEVENT
+END:VCALENDAR
