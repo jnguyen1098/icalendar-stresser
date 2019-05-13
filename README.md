@@ -9,7 +9,7 @@ iCalendarStresser consists of:
 * a repository of 96 iCalendar (`*.ics`) test cases organized by [error](https://github.com/jnguyen1098/iCalendarStresser/wiki/Error-Codes) invoked (credits to [BenFort](https://github.com/BenFort) and other people in my cohort for contributing many of these cases for the harness)
 * a `Makefile` that automates the test running process
 
-### [Installation](https://github.com/jnguyen1098/iCalendarStresser/wiki/Installation) and [Screenshots](#screenshots)
+### [Installation](https://github.com/jnguyen1098/iCalendarStresser/wiki/Installation) | [Screenshots](#screenshots) | [Glossary](https://github.com/jnguyen1098/iCalendarStresser/wiki/Glossary)
 
 ## Summary of Tests
 * **A1harness ([wiki](https://github.com/jnguyen1098/iCalendarStresser/wiki/The-A1-Harness))**—iCalendar parsing stress test; tests `createCalendar()`'s ability to parse valid and invalid calendar files correctly 
