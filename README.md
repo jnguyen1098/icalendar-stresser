@@ -9,10 +9,10 @@ iCalendarStresser consists of:
 * a repository of 96 iCalendar (`*.ics`) test cases organized by error invoked
 * a `Makefile` that automates the test running process
 
-### [Installation]() and [Screenshots]()
+### [Installation](https://github.com/jnguyen1098/iCalendarStresser/wiki/Installation) and [Screenshots](#screenshots)
 
 ## Summary of Tests
-* **A1harness**—iCalendar parsing stress test; tests `createCalendar()`'s ability to parse valid and invalid calendar files correctly 
+* **A1harness ([wiki](https://github.com/jnguyen1098/iCalendarStresser/wiki/The-A1-Harness))**—iCalendar parsing stress test; tests `createCalendar()`'s ability to parse valid and invalid calendar files correctly 
   * 7 tests for `INV_FILE` (invalid file)
   * 12 tests for `INV_CAL` (invalid Calendar object)
   * 5 tests for `INV_VER` (invalid version)
@@ -26,9 +26,9 @@ iCalendarStresser consists of:
   * 2 tests that highlight undefined issues in the assignment specification (no expected error)
   * 3 tests for NULL function arguments (NULL & NULL, NOT NULL & NULL, NULL & NOT NULL)
   * 18 tests for `OK` (valid file)
-* **A2m1harness**—iCalendar parsing and filewriting stress test; tests `createCalendar()` and `writeCalendar()`'s ability to open a valid iCalendar file and re-export it identically with the help of `printCalendar()`.
+* **A2m1harness ([wiki](https://github.com/jnguyen1098/iCalendarStresser/wiki/The-A2-Module-1-Harness))**—iCalendar parsing and filewriting stress test; tests `createCalendar()` and `writeCalendar()`'s ability to open a valid iCalendar file and re-export it identically with the help of `printCalendar()`.
   * 19 valid files are parsed into Calendar objects using `createCalendar()`. They are then re-written to disk in a dedicated exports folder, then a character-by-character comparison of the two files' printing outputs (from `printCalendar()`) is done. Test(s) fail if the resultant files don't match exactly or the initial `createCalendar()` call fails to return `OK`.
-* **A2m2harness**—calendar object validation stress test; tests `validateCalendar()`'s ability to validate existing Calendar data objects
+* **A2m2harness ([wiki](https://github.com/jnguyen1098/iCalendarStresser/wiki/The-A2-Module-2-Harness))**—calendar object validation stress test; tests `validateCalendar()`'s ability to validate existing Calendar data objects
   * 39 tests for `INV_CAL` (invalid Calendar object)
   * 116 tests for `INV_EVENT` (invalid Event object)
   * 104 tests for `INV_ALARM` (invalid Alarm object)
@@ -37,5 +37,19 @@ iCalendarStresser consists of:
   * 336 collision tests for simultaneous `INV_EVENT` and `ENV_ALARM` errors (`INV_EVENT` takes precedence)
   * 4368 collision tests for simultaneous `INV_CAL`, `INV_EVENT`, and `INV_ALARM` errors (`INV_CAL` takes precedence)
   * 39 tests for `OK` (valid Calendar object)
-* **A2m2harnessv**—`validateCalendar()`—calendar object error priority vulnerability test
+* **A2m2harnessv ([wiki](https://github.com/jnguyen1098/iCalendarStresser/wiki/The-A2-Module-2-Vulnerability-Harness))**—`validateCalendar()`—calendar object error priority vulnerability test
   * 1 test for cross-event error collision between `INV_EVENT` and `INV_ALARM` (`INV_EVENT` takes precedence)
+  
+## Screenshots
+
+### A1harness (`createCalendar()`)
+![A screenshot of the first harness](https://i.imgur.com/sj1OuLf.png)
+
+### A2m1harness (`createCalendar()`, `writeCalendar()`, `printCalendar()`)
+![A screenshot of the second harness](https://i.imgur.com/y4lV5jS.png)
+
+### A2m2harness (`validateCalendar()`)
+![A screenshot of the third harness](https://i.imgur.com/PU1O8pU.png)
+
+### A2m2harnessv (`validateCalendar()`)
+![A screenshot of the fourth harness](https://i.imgur.com/vXmXvaZ.png)
