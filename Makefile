@@ -52,39 +52,39 @@ compileHarness4: src/A2m2harnessv.c
 
 # Run Test Harness 1
 run1: compileHarness1
-	cd bin && LD_LIBRARY_PATH=./ ./A1m1 && cd ..
+	cd bin && LD_LIBRARY_PATH=../lib ./A1m1 && cd ..
 
 # Run Test Harness 2
 run2: compileHarness2
-	cd bin && LD_LIBRARY_PATH=./ ./A2m1 && cd ..
+	cd bin && LD_LIBRARY_PATH=../lib ./A2m1 && cd ..
 	rm -r bin/TEST/WRITECALEXPORTS/
 
 # Run Test Harness 3
 run3: compileHarness3
-	cd bin && LD_LIBRARY_PATH=./ ./A2m2 && cd ..
+	cd bin && LD_LIBRARY_PATH=../lib ./A2m2 && cd ..
 
 # Run Test Harness 4
 run4: compileHarness4
-	cd bin && LD_LIBRARY_PATH=./ ./A2m2v && cd ..
+	cd bin && LD_LIBRARY_PATH=../lib ./A2m2v && cd ..
 
 ###############################################################################
 
 # Run Test Harness 1 (Valgrind)
 run1v: compileHarness1
-	cd bin && LD_LIBRARY_PATH=./ valgrind --leak-check=full --track-origins=yes --show-leak-kinds=all ./A1m1 && cd ..
+	cd bin && LD_LIBRARY_PATH=../lib valgrind --leak-check=full --track-origins=yes --show-leak-kinds=all ./A1m1 && cd ..
 
 # Run Test Harness 2 (Valgrind)
 run2v: compileHarness2
-	cd bin && LD_LIBRARY_PATH=./ valgrind --leak-check=full --track-origins=yes --show-leak-kinds=all ./A2m1 && cd ..
+	cd bin && LD_LIBRARY_PATH=../lib valgrind --leak-check=full --track-origins=yes --show-leak-kinds=all ./A2m1 && cd ..
 	rm -r bin/TEST/WRITECALEXPORTS/
 
 # Run Test Harness 3 (Valgrind)
 run3v: compileHarness3
-	cd bin && LD_LIBRARY_PATH=./ valgrind --leak-check=full --track-origins=yes --show-leak-kinds=all ./A2m2 && cd ..
+	cd bin && LD_LIBRARY_PATH=../lib valgrind --leak-check=full --track-origins=yes --show-leak-kinds=all ./A2m2 && cd ..
 
 # Run Test Harness 4 (Valgrind)
 run4v: compileHarness4
-	cd bin && LD_LIBRARY_PATH=./ valgrind --leak-check=full --track-origins=yes --show-leak-kinds=all ./A2m2v && cd ..
+	cd bin && LD_LIBRARY_PATH=../lib valgrind --leak-check=full --track-origins=yes --show-leak-kinds=all ./A2m2v && cd ..
 
 ###############################################################################
 
