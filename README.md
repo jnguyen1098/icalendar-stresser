@@ -9,9 +9,7 @@ iCalendarStresser consists of:
 * a repository of 96 iCalendar (`*.ics`) test cases organized by error invoked
 * a `Makefile` that automates the test running process
 
-[Installation]()
-
-[Screenshots]()
+### [Installation]() and [Screenshots]()
 
 ## Summary of Tests
 * **A1harness**—iCalendar parsing stress test; tests `createCalendar()`'s ability to parse valid and invalid calendar files correctly 
