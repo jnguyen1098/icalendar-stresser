@@ -1,9 +1,7 @@
-#include <stdio.h>
+#include "CalendarParser.h"
 #include <sys/types.h>
 #include <sys/stat.h>
 #include <unistd.h>
-#include "LinkedListAPI.h"
-#include "CalendarParser.h"
 
 #define DAMAGE_TEXT 200
 

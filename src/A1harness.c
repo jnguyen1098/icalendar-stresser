@@ -1,5 +1,3 @@
-#include <stdio.h>
-#include "LinkedListAPI.h"
 #include "CalendarParser.h"
 
 int main(void)
