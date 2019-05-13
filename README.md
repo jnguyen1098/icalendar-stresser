@@ -26,8 +26,8 @@ iCalendarStresser consists of:
   * 2 tests that highlight undefined issues in the assignment specification (no expected error)
   * 3 tests for NULL function arguments (NULL & NULL, NOT NULL & NULL, NULL & NOT NULL)
   * 18 tests for `OK` (valid file)
-* **A2m1harness**—iCalendar parsing and filewriting stress test; tests `createCalendar()` and `writeCalendar()`'s ability to open a valid iCalendar file and re-export it identically
-  * 19 valid files are parsed into Calendar objects using `createCalendar()`. They are then re-written to disk in a dedicated exports folder, then a character-by-character comparison of the two files is done. Test(s) fail if the resultant files don't match exactly or the initial `createCalendar()` call fails to return `OK`.
+* **A2m1harness**—iCalendar parsing and filewriting stress test; tests `createCalendar()` and `writeCalendar()`'s ability to open a valid iCalendar file and re-export it identically with the help of `printCalendar()`.
+  * 19 valid files are parsed into Calendar objects using `createCalendar()`. They are then re-written to disk in a dedicated exports folder, then a character-by-character comparison of the two files' printing outputs (from `printCalendar()`) is done. Test(s) fail if the resultant files don't match exactly or the initial `createCalendar()` call fails to return `OK`.
 * **A2m2harness**—calendar object validation stress test; tests `validateCalendar()`'s ability to validate existing Calendar data objects
   * 39 tests for `INV_CAL` (invalid Calendar object)
   * 116 tests for `INV_EVENT` (invalid Event object)
