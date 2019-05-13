@@ -1,6 +1,17 @@
 # iCalendarStresser
 
-I developed these test harnesses on my own during my time in CIS\*2750. In creating a RESTful web app, we were first instructed to create a C backend that parsed [standard RFC 5545](https://tools.ietf.org/html/rfc5545) iCalendar files. As the prof.'s assignment specification was strict, we all had to use the same function definitions, so keeping this in mind I created iCalendarStresser in order to streamline testing of valid and invalid inputs against the project API in order to make the 'Angel of Death' course much more bearable.
+This release consists of four test harnesses containing a combined total of over 5000 automated test cases used to test three functions of the [CIS\*2750 iCalendar web app](https://github.com/jnguyen1098/iCalendarManager): `createCalendar()`, `writeCalendar()`, and `validateCalendar()`. The web app was to take place over the course of one academic semester at the University of Guelph.
+
+I developed these test harnesses from scratch in C alongside my web app development during the course. In creating the RESTful web app mentioned above, we were first instructed to create a C backend that parsed [standard RFC 5545](https://tools.ietf.org/html/rfc5545) iCalendar files. As the prof.'s assignment specification was strict, we all had to use the same function definitions, so keeping this in mind, I created iCalendarStresser in order to streamline testing of valid and invalid inputs against the project API in order to make the 'Angel of Death' course much more bearable for me and my cohort.
+
+iCalendarStresser consists of:
+* four `.c` files that automate the testing process by means of API calls
+* a repository of 96 iCalendar (`*.ics`) test cases organized by error invoked
+* a `Makefile` that automates the test running process
+
+[Installation]()
+
+[Screenshots]()
 
 ## Summary of Tests
 * **A1harness**—iCalendar parsing stress test; tests `createCalendar()`'s ability to parse valid and invalid calendar files correctly 
