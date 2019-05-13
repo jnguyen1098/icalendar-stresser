@@ -1,4 +1,4 @@
-# iCalendarStresser
+# iCalendar Stresser
 
 ### [Installation](https://github.com/jnguyen1098/iCalendarStresser/wiki/Installation) | [Screenshots](#screenshots) | [Glossary](https://github.com/jnguyen1098/iCalendarStresser/wiki/Glossary)
 
