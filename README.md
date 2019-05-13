@@ -6,7 +6,7 @@ In creating the RESTful web app mentioned above, we were first instructed to cre
 
 iCalendarStresser consists of:
 * four `.c` files that automate the testing process by means of API calls
-* a repository of 96 iCalendar (`*.ics`) test cases organized by error invoked (credits to [BenFort](https://github.com/BenFort) and other people in my cohort for contributing many of these cases for the harness)
+* a repository of 96 iCalendar (`*.ics`) test cases organized by [error](https://github.com/jnguyen1098/iCalendarStresser/wiki/Error-Codes) invoked (credits to [BenFort](https://github.com/BenFort) and other people in my cohort for contributing many of these cases for the harness)
 * a `Makefile` that automates the test running process
 
 ### [Installation](https://github.com/jnguyen1098/iCalendarStresser/wiki/Installation) and [Screenshots](#screenshots)
