@@ -1,5 +1,5 @@
-#ifndef CALENDARPARSER_H
-#define CALENDARPARSER_H
+#ifndef CALENDAR_PARSER_H
+#define CALENDAR_PARSER_H
 
 #include <stdbool.h>
 #include <string.h>
